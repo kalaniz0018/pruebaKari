@@ -1,0 +1,31 @@
+Recomendaciones para hacer ejercicios
+
+.-Leer todo el enunciado con atención de manera completa antes de escribir código
+
+.-Revisá que es lo que pide el enunciado
+	.-Si hay que implementar una función (por ahora solo estamos haciendo funciones).
+	.-Cuántos parámetros recibe y de que tipos de datos son.
+	.-Si la función devuelve un valor y de que tipo de datos es.
+
+.-Antes de escribir el cuerpo de la función (su implementación), esbozar ejemplos de las llamadas a la función por medio de console.log() 
+  y los resultados que se espera usando comentarios. Por ejemplo:
+	
+	function suma(numero1, numero2){
+		//TODO aun no implementado
+	}
+
+	console.log(suma(1,2)) // 3
+	console.log(suma(-1,2)) // 1
+	console.log(suma(-1,-2)) // -3
+	console.log(suma(0,0)) // 0
+
+.-Al escribir los ejemplo, asegurarse que sean variados y abarquen distintos tipos de casos de prueba. Ejemplos:
+	.-Si el tipo de datos es un número, asegurarse de pasar valores positivos, negativos y cero (si es posible)
+	.-Si es un string, revisar que valores acepta el parametro (si el string representa un estado, puede aceptar unicamente "abierto" y "cerrado").  
+	  También probar que devuelve la función ante un string vacío o fuera de los valores aceptados.
+	.-Si es un arreglo, probar distintos elementos y no olvidarse del arreglo vacío.
+
+.-Asegurarse que los nombres de funciones y variables sean adecuados y que sea camelCase. Por ejemplo si una función filtra objetos que representan tiendas a través de un estado, 
+  un nombre valido sería "filtrarTiendaPorEstado" o "tiendasEnEstado".  
+
+.-Asegurarse que el formato del codigo sea correcto y legible.  No dejar espacios de más entre líneas de código, agregar los espacios o tabulaciones necesarias que separen los bloques de codigo.
