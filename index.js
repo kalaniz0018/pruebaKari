@@ -67,3 +67,12 @@ function dividirPalabra2(cadena){
     return resultado;
 }
 console.log(dividirPalabra2("hola como estas yo muy bien"));  
+
+function horoscopo (dia, mes){
+  if(dia >= 23 && mes == 10) || (dia <= 22 && mes==11){
+    return "escorpio";
+  }
+  return "No pertenece a este signo";
+} 
+
+console.log(horoscopo(15, 1));
